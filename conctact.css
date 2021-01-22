@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(https://i.ibb.co/yyS4MHs/contact-page-background.jpg);
+  background-size: cover;
+}
+
+.contact-form {
+  width: 85%;
+  max-width: 600px;
+  background: #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px #000000b3;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-form h1 {
+  margin-top: 0;
+  font-weight: 200;
+}
+
+.txtb {
+  border: 1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+.txtb label {
+  display: block;
+  text-align: left;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.txtb input,
+.txtb textarea {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.btn {
+  display: inline-block;
+  background: #9b59b6;
+  padding: 14px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  align-items: center;
+}
+
+.logo-container,
+.nav-links,
+.cart {
+  display: flex;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo {
+  font-family: "Impact", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 5px;
+  background: #b7deed;
+  background: -webkit-linear-gradient(
+    to top,
+    #b7deed 0%,
+    #71ceef 25%,
+    #21b4e2 75%,
+    #b7deed 100%
+  );
+  background: -moz-linear-gradient(
+    to top,
+    #b7deed 0%,
+    #71ceef 25%,
+    #21b4e2 75%,
+    #b7deed 100%
+  );
+  background: linear-gradient(
+    to top,
+    #b7deed 0%,
+    #71ceef 25%,
+    #21b4e2 75%,
+    #b7deed 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-links {
+  font-family: "Impact", sans-serif;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-link {
+  color: #d83f87;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+nav {
+  flex: 2;
+}
+
+.cart {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.nav-links a:hover {
+  font-size: 22px;
+  color: teal;
+}
