@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.raw-data,
+.google-earth,
+.disney-vr {
+  padding: 20px;
+}
+
+body {
+  overflow-x: hidden;
+  background: url(https://i.ibb.co/72NQbjN/games-page-background.jpg);
+  font-family: "Impact", sans-serif;
+  background-size: cover;
+}
+
+.grid-container {
+  font-family: Verdana;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+header {
+  display: flex;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  align-items: center;
+}
+
+.logo-container,
+.nav-links,
+.cart {
+  display: flex;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo {
+  font-family: "Impact", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 5px;
+  background: #b7deed;
+  background: -webkit-linear-gradient(
+    to top,
+    #b7deed 0%,
+    #71ceef 25%,
+    #21b4e2 75%,
+    #b7deed 100%
+  );
+  background: -moz-linear-gradient(
+    to top,
+    #b7deed 0%,
+    #71ceef 25%,
+    #21b4e2 75%,
+    #b7deed 100%
+  );
+  background: linear-gradient(
+    to top,
+    #b7deed 0%,
+    #71ceef 25%,
+    #21b4e2 75%,
+    #b7deed 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-links {
+  font-family: "Impact", sans-serif;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-link {
+  color: #d83f87;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+nav {
+  flex: 2;
+}
+
+.cart {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.nav-links a:hover {
+  font-size: 22px;
+  color: teal;
+}
+.footer {
+  display: block;
+  overflow: hidden;
+  width: 100vw;
+  padding: 70px 0px;
+  background-color: #18181a;
+  box-sizing: border-box;
+}
+
+.inner-footer {
+  display: block;
+  margin: 0 auto;
+  width: 1100px;
+  height: 100%;
+}
+
+.inner-footer .footer-logo-container {
+  width: 35%;
+  float: left;
+  height: 100%;
+  display: block;
+}
+
+.inner-footer .footer-logo-container img {
+  width: 60px;
+  height: auto;
+}
+
+.inner-footer .footer-third {
+  width: calc(21.6666666667% - 20px);
+  margin-right: 10px;
+  float: left;
+  height: 100%;
+}
+
+.inner-footer .footer-third:last-child {
+  margin-right: 0;
+}
+
+.inner-footer .footer-third h1 {
+  font-family: Arial;
+  font-size: 22px;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inner-footer .footer-third a {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 200;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.inner-footer .footer-third span {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+  display: block;
+  width: 100%;
+
+  padding-top: 20px;
+}
